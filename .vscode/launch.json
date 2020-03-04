@@ -1,0 +1,16 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [     
+        {
+            "type": "",
+            "name": "Android",
+            "request": "launch",
+            "appSrcRoot": "C:\Users\bruna_teixeira\AndroidStudioProjects\MobileSugar\android\app\src\main",
+            "apkFile": "C:\Users\bruna_teixeira\AndroidStudioProjects\MobileSugar\build\app\outputs\apk\debug\app-debug.apk",
+            "adbPort": 5037
+        }
+    ]
+}
