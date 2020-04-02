@@ -1,23 +1,23 @@
 import 'dart:convert';
 
-List<LoginModel> loginModelFromJson(String str) => List<LoginModel>.from(json.decode(str).map((x) => LoginModel.fromJson(x)));
+List<OsModel> osModelFromJson(String str) => List<OsModel>.from(json.decode(str).map((x) => OsModel.fromJson(x)));
 
-String loginModelToJson(List<LoginModel> data) => json.encode(List<dynamic>.from(data.map((x) => x.toJson())));
+String osModelToJson(List<OsModel> data) => json.encode(List<dynamic>.from(data.map((x) => x.toJson())));
 
-class LoginModel {
+class OsModel {
   int idUsuario;
   String login;
   String senha;
   String nome;
 
-  LoginModel({
+  OsModel({
     this.idUsuario,
     this.login,
     this.senha,
     this.nome,
   });
 
-  factory LoginModel.fromJson(Map<String, dynamic> json) => LoginModel(
+  factory OsModel.fromJson(Map<String, dynamic> json) => OsModel(
     idUsuario: json["idUsuario"],
     login: json["login"],
     senha: json["senha"],
@@ -25,7 +25,7 @@ class LoginModel {
   );
 
 
-  factory LoginModel.fromJsonNet(Map<String, dynamic> json) => LoginModel(
+  factory OsModel.fromJsonNet(Map<String, dynamic> json) => OsModel(
     idUsuario: json["IdUsuario"],
     login: json["Login"],
     senha: json["Senha"],

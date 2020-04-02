@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_i18n/flutter_i18n.dart';
 import 'package:sugar/src/blocs/login_bloc.dart';
-import 'package:sugar/src/ui/home/home.dart';
+import 'package:sugar/src/ui/home/Home.dart';
 import 'package:sugar/src/ui/widgets/form_text_field.dart';
 
 class Login extends StatefulWidget {

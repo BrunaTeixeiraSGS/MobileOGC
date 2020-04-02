@@ -27,8 +27,6 @@ class Formularios extends StatelessWidget {
         ),
         drawer: _buildDrawer.buildDrawer(context, route),
         body: TabBarView(children: [
-          ListNaoSincronizados(10, "SA11901035"),
-          ListNaoSincronizados(10, "SA11901035"),
         ]),
         backgroundColor: Colors.white,
         // Aqui deve ser chamado as paginas dentro do pacote UI
